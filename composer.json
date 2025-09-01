@@ -1,0 +1,22 @@
+{
+  "name": "miladul/laravel-multilang",
+  "description": "A simple multi-language package for Laravel using JSON files.",
+  "keywords": ["laravel", "multi-language", "json"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Miladul\\MultiLang\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Miladul\\MultiLang\\MultiLangServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "laravel/framework": ">=9.0"
+  }
+}
